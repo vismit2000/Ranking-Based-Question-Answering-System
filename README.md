@@ -1,6 +1,6 @@
 # Ranking-Based-Question-Answering-System
 
-# Installing the Chrome Extension from Source
+## Installing the Chrome Extension from Source
 
 1. Clone this repo so you have a copy in a folder locally.
 2. Open `chrome://extensions` in the location or go to `Tools` > `Extensions`
