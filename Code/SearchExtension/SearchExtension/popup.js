@@ -47,7 +47,7 @@ $(function() {
                   for(i = 0; i < idx; i++)
                   {
                      let newNode = document.createElement('div');      
-                     newNode.innerHTML = "<br />" + '<a href=' + ans[i+1] + '>' + ans[i+1] + '</a>' + "<br />";
+                     newNode.innerHTML = "<br />" + '<a href="' + ans[i+1] + '" target = "_blank">' + ans[i+1] + '</a>' + "<br />";
                      
                      div.appendChild( newNode );
                      
