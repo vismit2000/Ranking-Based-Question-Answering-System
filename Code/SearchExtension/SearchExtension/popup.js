@@ -14,7 +14,7 @@ $(function() {
                   parse = JSON.parse(parsed_data);
 
                   var idx=5
-                  if(parse["0"]=='Bits Pilani')
+                  if(parse["0"]=='BITS Pilani')
                      idx=1
 
                   var div = document.getElementsByClassName("box")[0];
