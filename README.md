@@ -77,8 +77,6 @@ Accuracy: `66.316%`
 
 ## Implementation
 
-![Implementation](./Images/Implementation.png?raw=true "Implementation")
-
 ![Question_Search](./Images/Question_Search.png?raw=true "Question_Search")
 
 ## Context-Based Classification - BERT
@@ -112,9 +110,11 @@ In Question Answering tasks the software receives a question regarding a text se
 
 ![BERT_Input_Format](./Images/BERT_Input_Format.png?raw=true "BERT_Input_Format")
 
-### Start and End Token Classifiers
+### Start Token Classifier
 
 ![Start_Token_Classifier](./Images/Start_Token_Classifier.png?raw=true "Start_Token_Classifier")
+
+### End Token Classifier
 
 ![End_Token_Classifier](./Images/End_Token_Classifier.png?raw=true "End_Token_Classifier")
 
