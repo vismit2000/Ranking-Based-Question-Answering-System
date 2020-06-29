@@ -2,12 +2,13 @@
 
 ## Introduction
 
-- Question Answering system is an automated computer system that answers queries posed by humans in natural language.
-- In this project, various available Ranking Based Question Answering Systems are reviewed and a technique is proposed which selects the best answer from the available QA models using cosine simiarity and NLP, and also answers some domain-specific questions which can't be answered by the above systems.
+Question Answering system is an automated computer system that answers queries posed by humans in natural language.
+
+In this project, various available Ranking Based Question Answering Systems are reviewed and a technique is proposed which selects the best answer from the available QA models using cosine simiarity and NLP, and also answers some domain-specific questions which can't be answered by the above systems.
 
 ## Objectives - A Hybrid Search System
 
-- The data about private organizations is available to these organizations only and sometimes not available in public domain.
+The data about private organizations is available to these organizations only and sometimes not available in public domain.
 
 1. To build a context-based Question-Answering System for a specific organization which finds relevant answers to the queries using a corpus of information present only with the organization.
 
@@ -33,10 +34,11 @@
 
 ## Dataset
 
-- We used Yahoo! Answers topic selection dataset
-    - Human labelled dataset constructed with 10 largest main categories
-    - Each class contains 1,40,000 training and 6,000 testing samples
-- From all answers and other meta information, only the best answer content and the main category information were used.
+We used Yahoo! Answers topic selection dataset
+  - Human labelled dataset constructed with 10 largest main categories
+  - Each class contains 1,40,000 training and 6,000 testing samples
+
+From all answers and other meta information, only the best answer content and the main category information were used.
 
 ## Proposed Technique
 
@@ -64,12 +66,14 @@
 
 ## Model
 
-- Linear Support Vector Machine Classifier
-- **Features used:** 
-    - Named Entity Recognition
-    - Lemmas
-    - POS Tags
-- Accuracy: 66.316%
+Linear Support Vector Machine Classifier
+
+**Features used:** 
+  - Named Entity Recognition
+  - Lemmas
+  - POS Tags
+
+Accuracy: `66.316%`
 
 ## Implementation
 
@@ -79,20 +83,21 @@
 
 ## Context-Based Classification - BERT
 
-- BERT: Bidirectional Encoder Representations from Transformers
+*BERT:* Bidirectional Encoder Representations from Transformers
 
-- Transformers: Models that process words in relation to all the other words in a sentence, rather than one-by-one in order. BERT models can therefore consider the full context of a word by looking at the words that come before and after it—particularly useful for understanding the intent behind search queries.
+*Transformers:* Models that process words in relation to all the other words in a sentence, rather than one-by-one in order. BERT models can therefore consider the full context of a word by looking at the words that come before and after it—particularly useful for understanding the intent behind search queries.
 
 ## How BERT works?
 
-- As opposed to directional models, which read the text input sequentially (left-to-right or right-to-left), the Transformer encoder reads the entire sequence of words at once.
+As opposed to directional models, which read the text input sequentially (left-to-right or right-to-left), the Transformer encoder reads the entire sequence of words at once.
 
-- Therefore it is considered bidirectional, though it would be more accurate to say that it is non-directional. This characteristic allows the model to learn the context of a word based on all of its surroundings (left and right of the word).
+Therefore it is considered bidirectional, though it would be more accurate to say that it is non-directional. This characteristic allows the model to learn the context of a word based on all of its surroundings (left and right of the word).
 
 ## Masked LM (MLM)
 
-- Before feeding word sequences into BERT, 15% of the words in each sequence are replaced with a `[MASK]` token. The model then attempts to predict the original value of the masked words, based on the context provided by the other, non-masked, words in the sequence. 
-- In technical terms, the prediction of the output words requires:
+Before feeding word sequences into BERT, 15% of the words in each sequence are replaced with a `[MASK]` token. The model then attempts to predict the original value of the masked words, based on the context provided by the other, non-masked, words in the sequence. 
+
+In technical terms, the prediction of the output words requires:
 1. Adding a classification layer on top of the encoder output.
 2. Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension.
 3. Calculating the probability of each word in the vocabulary with softmax.
@@ -101,7 +106,7 @@
 
 ## Fine-tuning BERT for Q&A Task
 
-- In Question Answering tasks the software receives a question regarding a text sequence and is required to mark the answer in the sequence. Using BERT, a Q&A model can be trained by learning two extra vectors that mark the beginning and the end of the answer.
+In Question Answering tasks the software receives a question regarding a text sequence and is required to mark the answer in the sequence. Using BERT, a Q&A model can be trained by learning two extra vectors that mark the beginning and the end of the answer.
 
 ### BERT Input Format
 
