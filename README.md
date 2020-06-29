@@ -42,7 +42,7 @@ From all answers and other meta information, only the best answer content and th
 
 ## Proposed Technique
 
-- The architecture of the system comprises of 4 modules:
+The architecture of the system comprises of 4 modules:
 
 1. Question Classification Model
 2. Question Answering System
