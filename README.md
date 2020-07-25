@@ -1,8 +1,8 @@
 # Ranking-Based-Question-Answering-System
 
-## Introduction
-
 Question Answering system is an automated computer system that answers queries posed by humans in natural language.
+
+## Introduction
 
 In this project, various available Ranking Based Question Answering Systems are reviewed and a technique is proposed which selects the best answer from the available QA models using cosine simiarity and NLP, and also answers some domain-specific questions which can't be answered by the above systems.
 
