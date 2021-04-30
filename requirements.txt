@@ -49,7 +49,7 @@ srsly==0.2.0
 thinc==7.3.1
 torch==1.4.0
 tqdm==4.40.0
-urllib3==1.25.7
+urllib3==1.25.8
 wasabi==0.4.2
 webencodings==0.5.1
 Werkzeug==0.16.0
