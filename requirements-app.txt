@@ -65,7 +65,7 @@ protobuf==3.11.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.7
 pycparser==2.19
-pydantic==0.32.2
+pydantic==1.6.2
 pygame==1.9.6
 pymorphy2==0.8
 pymorphy2-dicts==2.4.393442.3710985
