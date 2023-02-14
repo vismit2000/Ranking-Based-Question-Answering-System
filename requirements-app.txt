@@ -92,7 +92,7 @@ sner==0.2.12
 soupsieve==1.9.5
 spacy==2.2.3
 srsly==0.2.0
-starlette==0.12.8
+starlette==0.25.0
 tensorboard==2.0.2
 tensorflow>=2.4.0
 tensorflow-estimator==2.0.1
