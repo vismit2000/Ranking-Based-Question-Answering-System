@@ -106,6 +106,6 @@ uvloop==0.14.0
 wasabi==0.4.2
 webencodings==0.5.1
 websockets==9.1
-Werkzeug==2.2.3
+Werkzeug==3.0.1
 wrapt==1.11.2
 zipp==0.6.0
