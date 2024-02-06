@@ -12,7 +12,7 @@ certifi==2023.7.22
 cffi==1.13.2
 chardet==3.0.4
 Click==7.0
-cryptography==41.0.6
+cryptography==42.0.0
 cymem==2.0.3
 Cython==0.29.12
 dataclasses==0.7
