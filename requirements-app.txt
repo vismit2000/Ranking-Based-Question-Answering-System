@@ -34,7 +34,7 @@ google-cloud-core==0.29.1
 google-cloud-translate==1.4.0
 google-pasta==0.1.8
 googleapis-common-protos==1.6.0
-grpcio==1.53.0
+grpcio==1.53.2
 h11==0.8.1
 h5py==2.9.0
 html5lib==1.0.1
