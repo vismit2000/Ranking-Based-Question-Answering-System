@@ -47,7 +47,7 @@ soupsieve==1.9.5
 spacy==2.2.3
 srsly==0.2.0
 thinc==7.3.1
-torch==1.13.1
+torch==2.4.0
 tqdm==4.66.3
 urllib3==1.26.19
 wasabi==0.4.2
