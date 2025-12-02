@@ -52,4 +52,4 @@ tqdm==4.66.3
 urllib3==1.26.19
 wasabi==0.4.2
 webencodings==0.5.1
-Werkzeug==3.0.6
+Werkzeug==3.1.4
